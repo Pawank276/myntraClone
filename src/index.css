@@ -1,0 +1,59 @@
+#navbarSupportedContent ul {
+    margin-left: 5%;
+}
+
+#navbarSupportedContent ul li a {
+    font-weight: bold;
+    color: crimson;
+    margin-right: 1%;
+}
+
+#navbarSupportedContent ul li a:hover {
+    color: rgb(228, 63, 96);
+}
+
+nav img {
+    width: 30px;
+    height: auto;
+}
+
+footer ul li {
+    color: white;
+}
+
+.card-body img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 5%;
+    transition: all 0.7s;
+}
+
+.card-body img:hover {
+    transform: scale(0.9);
+}
+
+.divider {
+    height: 7px;
+    background-color: crimson;
+}
+
+.card {
+    margin-bottom: 0px !important;
+    margin-right: 40px;
+}
+
+.cartIcon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.remove-icon {
+    cursor: pointer;
+}
+
+.product-details {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+}
